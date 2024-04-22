@@ -103,7 +103,7 @@
                                 <h3 class="text-white fw-normal cs_mb_6 cs_fs_13">
                                     {{ __('Contact Us') }}
                                 </h3>
-                                <h3 class="text-white m-0 cs_fs_13">(+506) 8477 8876</h3>
+                                <h3 class="text-white m-0 cs_fs_13">(+505) 8477 8876</h3>
                             </div>
                         </div>
                     </div>

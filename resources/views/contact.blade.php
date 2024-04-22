@@ -113,7 +113,7 @@
                                     {{ __('Call Us') }}
                                 </p>
                                 <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">
-                                    (+506) 8477 8876
+                                    (+505) 8477 8876
                                 </h2>
                             </div>
                         </div>

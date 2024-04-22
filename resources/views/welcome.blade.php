@@ -93,7 +93,7 @@
                             </h2>
                         </div>
                         <p class="cs_mb_24">
-                           {{ __('Our commitment is to provide quality and efficient service. We strive to meet established deadlines.') }}
+                            {{ __('Our commitment is to provide quality and efficient service. We strive to meet established deadlines.') }}
                         </p>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
                             <a href="{{ route('about') }}"
