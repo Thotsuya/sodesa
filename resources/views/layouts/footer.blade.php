@@ -10,7 +10,7 @@
                 <h2 class="text-white fw-medium m-0 cs_fs_22">(+506) 8477 8876</h2>
             </div>
             <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img
-                    src="{{ asset('img/Logo-desarrollo-e1712221278728.png') }}" alt="Logo"></div>
+                    src="{{ asset('assets/img/sodesa-logo.png') }}" alt="Logo"></div>
             <div class="cs_footer_contact_info">
                 <h3 class="text-white fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">
                     {{ __('Email') }}

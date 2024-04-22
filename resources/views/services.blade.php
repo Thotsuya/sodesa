@@ -4,7 +4,7 @@
 
 @section('seo')
     {{--    og Title and description--}}
-    <meta property="og:title" content="Servicios - Sodesa Soluciones y Deesarrollos S.A"/>
+    <meta property="og:title" content="Servicios - Sodesa Logística Aduanera"/>
     <meta property="og:description"
           content="Soluciones y Desarrollo SA, agilidad y transparencia, cumplimiento de las normativas aduaneras y tributarias, aportando seguridad, eficiencia y puntualidad."/>
 @endsection

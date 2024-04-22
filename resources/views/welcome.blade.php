@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('seo')
-    <meta property="og:title" content="Inicio - Sodesa Soluciones y Deesarrollos S.A"/>
+    <meta property="og:title" content="Inicio - Sodesa Logística Aduanera"/>
     <meta property="og:description" content="Soluciones y Desarrollo SA, agilidad y transparencia, cumplimiento de las normativas aduaneras y tributarias, aportando seguridad, eficiencia y puntualidad."/>
 @endsection
 
@@ -473,7 +473,7 @@
                                         {{ __('Call Us') }}
                                     </p>
                                     <h2 class="m-0 fw-medium cs_fs_18 cs_lh_base">
-                                        (+506) 8477 8876
+                                        (+505) 8477 8876
                                     </h2>
                                 </div>
                             </div>

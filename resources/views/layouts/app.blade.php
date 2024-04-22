@@ -8,7 +8,7 @@
     <meta name="author" content="Jarliev">
     <!-- Site Title -->
     <title>
-        @yield('title', 'Inicio') - Agencia Logística Aduanera Sodesa
+        @yield('title', 'Inicio') - Sodesa Logística Aduanera
     </title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -37,11 +37,11 @@
     <meta name="robots" content="max-image-preview:large"/>
     <link rel="canonical" href="{{ url()->current() }}"/>
     <meta property="og:locale" content="es_ES"/>
-    <meta property="og:site_name" content="Sodesa - Soluciones y Desarrollo S, A"/>
+    <meta property="og:site_name" content="Sodesa - Logística Aduanera"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="{{ url()->current() }}"/>
-    <meta property="og:image" content="{{ asset('img/cropped-Logo-desarrollo-1-e1712221254699.png') }} "/>
-    <meta property="og:image:secure_url" content="{{ asset('img/cropped-Logo-desarrollo-1-e1712221254699.png') }}"/>
+    <meta property="og:image" content="{{ asset('assets/img/sodesa-logo.png') }} "/>
+    <meta property="og:image:secure_url" content="{{ asset('assets/img/sodesa-logo.png') }}"/>
     <meta property="article:published_time" content="2023-07-27T08:57:15+00:00"/>
     <meta property="article:modified_time" content="2024-04-04T09:16:27+00:00"/>
 </head>

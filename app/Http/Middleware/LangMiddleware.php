@@ -18,7 +18,7 @@ class LangMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $lang = Session::get('lang', 'en');
+        $lang = Session::get('lang', 'es');
         app()->setLocale($lang);
 
         Carbon::setLocale($lang);
