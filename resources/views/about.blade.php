@@ -31,20 +31,6 @@
                 {{ __('About Us') }}
             </h1>
         </div>
-        <div class="position-absolute end-0 bottom-0">
-            <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M240 0H660L430 497H0L240 0Z" fill="url(#paint0_linear_81_9510)"/>
-                <defs>
-                    <linearGradient id="paint0_linear_81_9510" x1="330" y1="78.2497" x2="375.052" y2="780.743"
-                                    gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0" offset="none"/>
-                        <stop offset="0.9999" stop-color="#D9D9D9" stop-opacity="0.35"/>
-                        <stop offset="1" stop-color="#222121" stop-opacity="0"/>
-                        <stop offset="1" stop-color="#222121" stop-opacity="0"/>
-                    </linearGradient>
-                </defs>
-            </svg>
-        </div>
     </section>
     <!-- End Page Header -->
 
@@ -172,14 +158,12 @@
                             </div>
                             <h2 class="cs_lh_base cs_fs_17 m-0">
                                 <a href="#" class="inline-block">
-                                    Responsabilidad
+                                    {{ __('Responsibility') }}
                                 </a>
                             </h2>
                         </div>
                         <p class="cs_mb_24">
-                            Nuestro compromiso es brindar un servicio de calidad y eficiente. Nos esforzamos por cumplir
-                            con
-                            los plazos establecidos.
+                            {{ __('We provide efficient and quality service. Committed to meeting established deadlines.') }}
                         </p>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
                             <a href="services-details.html"
@@ -235,13 +219,12 @@
                             </div>
                             <h2 class="cs_lh_base cs_fs_17 m-0">
                                 <a href="services-details.html" class="inline-block">
-                                    Transparencia
+                                    {{ __('Transparency') }}
                                 </a>
                             </h2>
                         </div>
                         <p class="cs_mb_24">
-                            Nuestra empresa se caracteriza por su honestidad y transparencia en cada uno de nuestros
-                            procesos.
+                            {{ __('Our company is characterized by providing confidence to our clients in the services we offer, with the effective fulfillment of our processes.') }}
                         </p>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
                             <a href="services-details.html"
@@ -286,14 +269,12 @@
                             </div>
                             <h2 class="cs_lh_base cs_fs_17 m-0">
                                 <a href="services-details.html" class="inline-block">
-                                    Compromiso
+                                    {{ __('Commitment') }}
                                 </a>
                             </h2>
                         </div>
                         <p class="cs_mb_24">
-                            Estamos comprometidos con nuestro trabajo y con nuestros clientes, brindando siempre lo
-                            mejor de
-                            nosotros.
+                            {{ __('We strive to efficiently perform our work, providing a personalized experience and attention to our clients.') }}
                         </p>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
                             <a href="services-details.html"
@@ -331,13 +312,12 @@
                             </div>
                             <h2 class="cs_lh_base cs_fs_17 m-0">
                                 <a href="services-details.html" class="inline-block">
-                                    Integridad
+                                    {{ __('Integrity') }}
                                 </a>
                             </h2>
                         </div>
                         <p class="cs_mb_24">
-                            Nos caracterizamos por ser transparentes y honestos en todo momento, manteniendo siempre la
-                            integridad.
+                            {{ __('We are committed to the continuous implementation of good practices and a set of values in our work environment.') }}
                         </p>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
                             <a href="services-details.html"

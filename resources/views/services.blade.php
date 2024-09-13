@@ -26,20 +26,6 @@
                 {{ __('Services') }}
             </h1>
         </div>
-        <div class="position-absolute end-0 bottom-0">
-            <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M240 0H660L430 497H0L240 0Z" fill="url(#paint0_linear_81_9510)"/>
-                <defs>
-                    <linearGradient id="paint0_linear_81_9510" x1="330" y1="78.2497" x2="375.052" y2="780.743"
-                                    gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0" offset="none"/>
-                        <stop offset="0.9999" stop-color="#D9D9D9" stop-opacity="0.35"/>
-                        <stop offset="1" stop-color="#222121" stop-opacity="0"/>
-                        <stop offset="1" stop-color="#222121" stop-opacity="0"/>
-                    </linearGradient>
-                </defs>
-            </svg>
-        </div>
     </section>
     <!-- End Page Header -->
     <!-- Start Service Section -->
@@ -79,7 +65,6 @@
                             </div>
                             <p class="cs_mb_24">
 {{--                                {{ __('Legal representation, Tariff classification of goods, Calculation and payment of taxes and expenses') }}--}}
-                                - {{ __('Legal Representation') }}<br/>
                                 - {{ __('Tariff classification of goods') }}<br/>
                                 - {{ __('Calculation and payment of taxes and expenses') }}
                             </p>
@@ -125,10 +110,11 @@
                                     </a></h2>
                             </div>
                             <p class="cs_mb_24">
-{{--                                {{ __('Transport of Goods, Receipt and exit of goods, Storage of goods') }}--}}
-                                - {{ __('Transport of Goods') }}<br/>
                                 - {{ __('Receipt and exit of goods') }}<br/>
-                                - {{ __('Storage of goods') }}
+                                - {{ __('Storage of goods') }}<br/>
+                                - {{ __('Maritime Transport') }}<br/>
+                                - {{ __('Air Transport') }}<br/>
+                                - {{ __('Land Transport') }}<br/>
                             </p>
                         </div>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
@@ -189,6 +175,8 @@
                             - Peñas Blancas<br/>
                             - Corinto<br/>
                             - Tablillas<br/>
+                            - El Rama<br/>
+                            - Río San Juan
                         </p>
                         <div class="cs_service_thumb position-relative cs_rounded_5">
                             <a href="#"

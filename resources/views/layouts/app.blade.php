@@ -25,10 +25,10 @@
 
 
     {{--    <script src="{{ asset('js/plugins/odometer.js') }}"/>--}}
-    {{--    <script src="{{ asset('js/plugins/swiper.min.js') }}"/>--}}
-
+{{--    <script src="{{ asset('js/plugins/wow.min.js') }}"/>--}}
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css" rel="stylesheet">
     @vite(['resources/sass/default.scss', 'resources/sass/style.scss'])
-    @vite('resources/js/main.js')
 
 
     @yield('seo')
@@ -59,5 +59,7 @@
 
 @include('layouts.footer')
 <!-- Script -->
+
+@vite('resources/js/main.js')
 </body>
 </html>

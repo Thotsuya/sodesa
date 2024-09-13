@@ -30,19 +30,6 @@
                 {{__('Contact Us') }}
             </h1>
         </div>
-        <div class="position-absolute end-0 bottom-0">
-            <svg width="660" height="497" viewBox="0 0 660 497" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M240 0H660L430 497H0L240 0Z" fill="url(#paint0_linear_81_9510)"/>
-                <defs>
-                    <linearGradient id="paint0_linear_81_9510" x1="330" y1="78.2497" x2="375.052" y2="780.743" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0" offset="none"/>
-                        <stop offset="0.9999" stop-color="#D9D9D9" stop-opacity="0.35"/>
-                        <stop offset="1" stop-color="#222121" stop-opacity="0"/>
-                        <stop offset="1" stop-color="#222121" stop-opacity="0"/>
-                    </linearGradient>
-                </defs>
-            </svg>
-        </div>
     </section>
     <!-- End Page Header -->
     <!-- Start Contact Section -->
@@ -112,8 +99,10 @@
                                 <p class="text-accent cs_mb_7">
                                     {{ __('Call Us') }}
                                 </p>
-                                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">
-                                    (+505) 8477 8876
+                                <h2 class="m-0 fw-medium cs_fs_18 cs_fs_lg_16 cs_lh_base">
+                                    (+505) 2291 1357<br/>
+                                    (+505) 8477 8876<br/>
+                                    (+505) 8181 4369
                                 </h2>
                             </div>
                         </div>
@@ -127,8 +116,9 @@
                                 <p class="text-accent cs_mb_7">
                                     {{ __('Email') }}
                                 </p>
-                                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">
-                                    vc.gerencia@sodesalogistic.com
+                                <h2 class="m-0 fw-medium cs_fs_18 cs_fs_lg_18 cs_lh_base">
+                                    vc.gerencia@sodesalogistic.com<br/>
+                                    admin@sodesalogistic.com
                                 </h2>
                             </div>
                         </div>
@@ -143,8 +133,10 @@
                                 <p class="text-accent cs_mb_7">
                                     {{ __('Address') }}
                                 </p>
-                                <h2 class="m-0 fw-medium cs_fs_22 cs_fs_lg_18 cs_lh_base">
-                                    Residencial Casa Real - Calle Cuatro , Lote 2E-03
+                                <h2 class="m-0 fw-medium cs_fs_18 cs_fs_lg_18 cs_lh_base">
+                                    <a href="https://waze.com/ul/hd44tngu7k">
+                                        Residencial Casa Real - Calle Cuatro , Lote 2E-03
+                                    </a>
                                 </h2>
                             </div>
                         </div>

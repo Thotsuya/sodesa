@@ -4,6 +4,7 @@ import jQueryBridget from 'jquery-bridget';
 import Isotope from 'isotope-layout';
 import Ripples from 'jquery.ripples'
 import Swiper from "swiper";
+// import 'wowjs'
 
 // make Isotope a jQuery plugin
 jQueryBridget( 'isotope', Isotope, $ );
@@ -40,7 +41,6 @@ window.jQuery = window.$ = $;
     | 15. Dynamic contact form
     |
     */
-
     /*--------------------------------------------------------------
       Scripts initialization
     --------------------------------------------------------------*/
@@ -72,12 +72,12 @@ window.jQuery = window.$ = $;
         progressBar();
         countDown();
         ecommerce();
-        // if ($.exists('.wow')) {
-        //     let wow = new WOW.WOW({
-        //         live: false,
-        //     })
-        //     wow.init()
-        // }
+        if ($.exists('.wow')) {
+            let wow = new WOW({
+                live: false,
+            })
+            wow.init()
+        }
         if ($.exists('.player')) {
             $('.player').YTPlayer();
         }

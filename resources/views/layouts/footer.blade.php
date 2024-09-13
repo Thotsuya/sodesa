@@ -7,7 +7,7 @@
                 <h3 class="text-white fw-normal cs_mb_4 cs_fs_14 cs_lh_lg">
                     {{ __('Contact Us') }}
                 </h3>
-                <h2 class="text-white fw-medium m-0 cs_fs_22">(+505) 8477 8876</h2>
+                <h2 class="text-white fw-medium m-0 cs_fs_16">(+505) 8477 8876</h2>
             </div>
             <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img
                     src="{{ asset('assets/img/sodesa-logo.png') }}" alt="Logo"></div>
@@ -15,8 +15,15 @@
                 <h3 class="text-white fw-normal cs_mb_4 cs_fs_16 cs_lh_lg">
                     {{ __('Email') }}
                 </h3>
-                <h2 class="text-white fw-medium m-0 cs_fs_22"><a
-                        href="mailto:vc.gerencia@sodesalogistic.com">vc.gerencia@sodesalogistic.com</a></h2>
+                <h2 class="text-white fw-medium m-0 cs_fs_16">
+                    <a
+                        href="mailto:vc.gerencia@sodesalogistic.com">vc.gerencia@sodesalogistic.com
+                    </a><br/>
+{{--                    admn@sodesalogistic.com--}}
+                    <a href="mailto:admin@sodesalogistic.com">
+                        admin@sodesalogistic.com
+                    </a>
+                </h2>
             </div>
         </div>
         <div class="cs_footer_main cs_pt_30 cs_pb_30">
