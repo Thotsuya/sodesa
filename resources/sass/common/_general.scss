@@ -48,6 +48,7 @@
     background-color: $primary;
   }
 }
+
 .cs_btn.cs_style_2 {
   border: 1px solid $primary;
   display: inline-flex;
@@ -62,6 +63,42 @@
     border-color: $accent;
   }
 }
+
+.cs_btn.cs_style_3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6em;
+    color: #fff;
+    background-color: $brand-600;
+    position: relative;
+    outline: none;
+    border: none;
+    span {
+        position: relative;
+        z-index: 1;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.25);
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+    &:hover {
+        &::before {
+            opacity: 1;
+        }
+    }
+    &.cs_color_1 {
+        background-color: $primary;
+    }
+}
+
 /* End Button Design */
 .cs_map {
   height: 500px;

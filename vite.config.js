@@ -11,7 +11,7 @@ export default defineConfig({
                 'resources/js/main.js'
             ],
             refresh: true,
-            detectTls: true
+            //detectTls: true
         }),
     ],
 });

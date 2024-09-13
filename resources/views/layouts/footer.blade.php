@@ -1,5 +1,10 @@
 <!-- Start Footer -->
 <footer class="cs_footer background-opacity text-white" data-src="{{ asset('img/bg-footer.webp') }}">
+
+    <a href="https://wa.me/50581814369" class="contact-button" target="_blank">
+        <i class="fa-brands fa-whatsapp fa-2x"></i>
+    </a>
+
     <div class="container position-relative">
         <div
             class="cs_footer_top d-flex justify-content-between align-items-start align-items-md-center cs_pt_46 cs_pb_46 cs_column_gap_10 cs_row_gap_15 flex-md-row  flex-column">
@@ -7,7 +12,7 @@
                 <h3 class="text-white fw-normal cs_mb_4 cs_fs_14 cs_lh_lg">
                     {{ __('Contact Us') }}
                 </h3>
-                <h2 class="text-white fw-medium m-0 cs_fs_16">(+505) 8477 8876</h2>
+                <h2 class="text-white fw-medium m-0 cs_fs_16">(+505) 8181 4369</h2>
             </div>
             <div class="cs_footer_logo wow zoomIn" data-wow-duration="0.8s" data-wow-delay="0.2s"><img
                     src="{{ asset('assets/img/sodesa-logo.png') }}" alt="Logo"></div>
