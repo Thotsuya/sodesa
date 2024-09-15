@@ -47,21 +47,23 @@
                             </h2>
                         </div>
                     </div>
-                    <form class="row">
+                    <form class="row" action="{{ route('contact.store') }}" method="POST">
+                        @csrf
                         <div class="col-lg-6">
-                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Your Name') }}">
+                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Your Name') }}" name="name">
                         </div>
                         <div class="col-lg-6">
-                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Email') }}">
+                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Email') }}" name="email">
                         </div>
                         <div class="col-lg-6">
-                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Phone') }}">
+                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Phone') }}" name="phone">
                         </div>
                         <div class="col-lg-6">
-                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Subject') }}">
+                            <input class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_35 bg-gray" type="text" placeholder="{{ __('Subject') }}" name="subject">
                         </div>
                         <div class="col-lg-12">
-                            <textarea class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_40 bg-gray" placeholder="{{ __('Write a message') }}" cols="35" rows="7"></textarea>
+                            <textarea class="form-control cs_fs_14 cs_rounded_5 border-0 cs_mb_40 bg-gray" placeholder="{{ __('Write a message') }}" cols="35" rows="7" name="message">
+                            </textarea>
                         </div>
                         <div class="col-lg-12">
                             <button class="cs_btn cs_style_1 cs_fs_16 cs_rounded_5 cs_pl_30 cs_pr_30 cs_pt_10 cs_pb_10 overflow-hidden">

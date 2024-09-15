@@ -39,6 +39,10 @@
                             <a href="https://www.facebook.com/profile.php?id=61556356303338"
                                class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i
                                     class="fa-brands fa-facebook-f"></i></a>
+
+                            <a href="https://www.instagram.com/sodesa_agenciaduanera?igsh=ajRmMmY3ejZpdmh1"
+                               class="d-flex align-items-center justify-content-center cs_height_35 cs_width_35 text-white rounded-circle"><i
+                                    class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

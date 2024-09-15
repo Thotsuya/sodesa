@@ -7,3 +7,4 @@ Route::view('/about', 'about')->name('about');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/services', 'services')->name('services');
 Route::get('/lang/{lang}', \App\Http\Controllers\LangController::class)->name('lang');
+Route::post('/contact',\App\Http\Controllers\ContactController::class)->name('contact.store');

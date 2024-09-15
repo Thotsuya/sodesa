@@ -57,39 +57,45 @@
                     <div class="cs_about cs_style_1">
                         <div class="cs_section_heading cs_style_1 d-flex align-items-center cs_mb_15">
                             <div class="cs_section_heading_in">
-                                <h3 class="cs_fs_20 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft"
+                                <h3 class="cs_fs_32 cs_fs_lg_18 text-accent fw-normal cs_lh_base cs_mb_10 wow fadeInLeft"
                                     data-wow-duration="0.8s" data-wow-delay="0.2s">
                                     {{ __('About Us') }}
                                 </h3>
                                 <h2 class="cs_fs_48 cs_fs_lg_36 cs_mb_20">
-                                    {{--                                    Sobre Agencia Aduanera y logística Sodesa--}}
-                                    {{ __('About Sodesa Customs and Logistics Agency') }}
+                                    Soluciones y desarrollos S.A
                                 </h2>
                             </div>
                         </div>
                         <div class="row cs_mb_15">
                             <div class="col-lg-6">
-                                <div class="cs_about-icon-box position-relative cs_mb_25">
-                                    <span
-                                        class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i
-                                            class="fa-solid fa-angles-right"></i></span>
-                                    <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">
-                                        {{ __('Mission') }}
-                                    </h3>
-                                    <p class="m-0">
+                                <div class="cs_about-icon-box-alt position-relative cs_mb_25">
+                                    <div class="icon-box-alt-container">
+                                        <span class="icon-box-alt-icon">
+                                            <i class="fa-solid fa-angles-right text-white"></i>
+                                        </span>
+
+                                        <h3 class="icon-box-alt-title">
+                                            {{ __('Mission') }}
+                                        </h3>
+                                    </div>
+
+                                    <p class="m-0 cs_fs_18 text-align-justify">
                                         {{ __('Optimize and streamline the import and export processes for our clients, ensuring compliance with customs and trade regulations, efficiently manage the required documentation, and offer personalized solutions that enhance our clients supply chain. Through transparency, integrity, and operational excellence.') }}
                                     </p>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="cs_about-icon-box position-relative cs_mb_25">
-                                    <span
-                                        class="position-absolute cs_height_20 cs_width_20 top-0 start-0 cs_mt_5 bg-accent text-white cs_fs_10 d-flex align-items-center justify-content-center cs_rounded_30"><i
-                                            class="fa-solid fa-angles-right"></i></span>
-                                    <h3 class="cs_fs_16 cs_pl_35 cs_mb_12 cs_lh_lg">
-                                        {{ __('Vision') }}
-                                    </h3>
-                                    <p class="m-0">
+                                <div class="cs_about-icon-box-alt position-relative cs_mb_25">
+                                    <div class="icon-box-alt-container">
+                                        <span class="icon-box-alt-icon">
+                                            <i class="fa-solid fa-angles-right text-white"></i>
+                                        </span>
+
+                                        <h3 class="icon-box-alt-title">
+                                            {{ __('Vision') }}
+                                        </h3>
+                                    </div>
+                                    <p class="m-0 cs_fs_18 text-align-justify">
                                         {{ __('Be recognized as leaders in international trade facilitation, offering the highest quality customs services. We seek to be the preferred option for companies that wish to optimize their import and export operations. We aspire to be a key mediator in the sustainable trade of our clients, contributing to the development of trade with logistical and customs solutions.') }}
                                     </p>
                                 </div>
